@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="Anime List">
+    <output-path>X:/Builds/Java/AnimeList</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="Anime List" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="AnimeList.jar">
+        <element id="module-output" name="AnimeList" />
+        <element id="directory" name="src">
+          <element id="directory" name="sample">
+            <element id="file-copy" path="$PROJECT_DIR$/src/sample/dateToWatch.txt" />
+          </element>
+        </element>
+      </element>
+      <element id="library" level="project" name="mysql-connector-java-8.0.16" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,16 @@
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler :first-child{
+    -fx-background-color: #ffffff;
+    -fx-font-style: italic;
+    -fx-font-family: Arial;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+}
+
+/*.table-row-cell {*/
+/*    -fx-border-color: black;*/
+/*    -fx-table-cell-border-color: black;*/
+/*}*/
